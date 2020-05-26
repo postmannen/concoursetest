@@ -1,0 +1,12 @@
+# [TITLE]: opencv-python
+# [DESCRIPTION]: OpenCV packages for Python.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Python
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+
+include(python3-basic)
+
+# main package
+opencv-python
+numpy

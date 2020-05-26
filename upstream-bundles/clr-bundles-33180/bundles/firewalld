@@ -1,0 +1,16 @@
+# [TITLE]: firewalld
+# [DESCRIPTION]: A firewall daemon with D-Bus interface providing a dynamic firewall
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Security
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(python3-basic)
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(libX11client)
+nftables
+# end of custom additions
+
+# main package
+firewalld

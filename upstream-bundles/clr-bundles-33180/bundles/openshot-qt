@@ -1,0 +1,16 @@
+# [TITLE]: openshot-qt
+# [DESCRIPTION]: No detailed summary available
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(python3-basic)
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(qt-basic)
+PyQt5
+# end of custom additions
+
+# main package
+openshot-qt

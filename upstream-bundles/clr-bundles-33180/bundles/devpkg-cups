@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-cups
+# [DESCRIPTION]: Files for developing against CUPS (Commun Unix Printing System)
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+
+include(devpkg-base)
+
+cups-dev

@@ -1,0 +1,13 @@
+# [TITLE]: devpkg-avahi
+# [DESCRIPTION]: All content for the avahi dev package.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(devpkg-base)
+include(devpkg-glib)
+include(libglib)
+include(devpkg-libevdev)
+
+avahi-dev

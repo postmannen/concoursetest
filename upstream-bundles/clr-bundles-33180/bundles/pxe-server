@@ -1,0 +1,12 @@
+# [TITLE]: pxe-server
+# [DESCRIPTION]: Run a PXE server.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(iptables)
+include(nginx)
+dhcp
+dnsmasq
+ipxe
+wol

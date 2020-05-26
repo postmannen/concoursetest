@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-libsodium
+# [DESCRIPTION]: All content for pkgconfig file libsodium.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(devpkg-base)
+
+libsodium-dev
